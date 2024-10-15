@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(to top left,yellow, lightblue,yellow );
+}
+
+.inner-cont{
+    color: darkcyan;
+    background-color: rgba(240, 248, 255, 0.438);
+    width: 500px;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    margin-left: 20px;
+
+}
+
+.content{
+    margin-left: 20px;
+}
+label{
+    font-weight: 600;
+    font-size: large;
+}
+#input{
+    font-size: large;
+    width: 70%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.199);
+    border: 0;
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+#input::placeholder{
+    margin-left: 20px;
+
+}
